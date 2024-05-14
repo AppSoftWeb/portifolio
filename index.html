@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lúcio</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://lh3.googleusercontent.com/a/ACg8ocJ3C5JZzGOSPtXKy33kpv779Ke9AEtmk4pbOR8AmDADAzU=s288-c-no"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <span id="hamburguer" class="material-icons" onclick="clickMenu()">
+          menu
+        </span>
+        <ul id="listaMenu">
+          <li class="link-menu"><a href="#">Sobre</a></li>
+          <li class="link-menu"><a href="#">Projetos</a></li>
+          <li class="link-menu"><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="apresentacao">
+        <img
+          src="https://lh3.googleusercontent.com/a/ACg8ocJ3C5JZzGOSPtXKy33kpv779Ke9AEtmk4pbOR8AmDADAzU=s288-c-no"
+          alt=""
+        />
+        <h1>Olá, eu sou Lúcio</h1>
+        <p>
+          Sou desenvolvedor Full Stack e Wordpress, universitário em Ciencias da
+          Computação e prefessor de Informática, Matemática e Técnico em
+          Segurança do Trabalho.
+        </p>
+      </section>
+      <section class="projetos">
+        <h1>Esses são alguns dos meus projetos como desenvolvedor web</h1>
+      </section>
+      <section class="contato">
+        <h1>Vamos trabalhar juntos...</h1>
+        <a id="profile-link" target="_blank">Linkedin</a>
+      </section>
+    </main>
+    <footer><p>Desenvolvidor por: Lúcio Cecílio</p></footer>
+    <script>
+      function clickMenu() {
+        if (listaMenu.style.display == "block") {
+          listaMenu.style.display = "none";
+        } else {
+          listaMenu.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
