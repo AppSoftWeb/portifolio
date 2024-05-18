@@ -82,6 +82,9 @@ main {
   margin: auto;
   width: 80%;
 }
+.img_appsoft {
+  width: 150px;
+}
 .contato {
   text-align: center;
 }
