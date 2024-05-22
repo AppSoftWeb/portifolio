@@ -51,7 +51,7 @@ a {
   transition: 1.5s;
 }
 .link-menu a:hover {
-  transform: translatey(5px);
+  transform: translateY(5px);
   color: gray;
 }
 #hamburguer {
