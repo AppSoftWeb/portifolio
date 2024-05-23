@@ -69,6 +69,7 @@ main {
   margin-top: 30px;
   border-radius: 50%;
   width: 250px;
+  box-shadow: 0 0 7px #f0f0f0;
 }
 .apresentacao p {
   width: 50%;
