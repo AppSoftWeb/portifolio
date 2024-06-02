@@ -89,6 +89,17 @@ main {
 .contato {
   text-align: center;
 }
+.trabalhos {
+  display: flex;
+  justify-content: center;
+}
+.trabalhos div {
+  display: inline;
+  margin: 40px;
+}
+.trabalhos div img {
+  height: 150px;
+}
 footer {
   background-color: var(--footer-bg-color);
   text-align: center;
